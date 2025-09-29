@@ -16,9 +16,6 @@ async function showMessage() {
   const message = textInput.value;
   const delay = Number(delayInput.value);
 
-  // Clear old output
-  output.innerText = "";
-
   if (!message || !delay) {
     output.innerText = "Please enter valid text and delay.";
     return;
