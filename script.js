@@ -25,7 +25,7 @@ async function showMessage() {
   }
 
   // Show feedback while waiting
-  output.innerText = "Processing...";
+  // output.innerText = "Processing...";
 
   // Await delay
   await wait(delay);
