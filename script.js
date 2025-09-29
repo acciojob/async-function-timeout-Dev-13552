@@ -13,7 +13,7 @@ function wait(ms) {
 
 // Main async function
 async function showMessage() {
-  const message = textInput.value.trim();
+  const message = textInput.value;
   const delay = Number(delayInput.value);
 
   // Clear old output
