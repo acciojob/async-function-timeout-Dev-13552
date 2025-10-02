@@ -7,7 +7,7 @@ const output = document.getElementById("output");
 // Utility: wait for given ms
 function wait(ms) {
   return new Promise((resolve, reject) =>{
-	  setTimeout(()=>{resolve("done")}, ms*1000);
+	  setTimeout(()=>{resolve("done")}, ms);
   } )
 }
 
